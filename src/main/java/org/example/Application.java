@@ -56,7 +56,7 @@ public class Application extends AbstractHandler
 
     private void handleCronTask(HttpServletRequest request, HttpServletResponse response) throws IOException {
         // Handle WorkerTier tasks here.
-        response.getWriter().println("Process Task Here. Based on Java");
+        response.getWriter().println("Process Task Here. Based on Java);
     }
 
     public void handle(String target, Request baseRequest, HttpServletRequest request, HttpServletResponse response)
